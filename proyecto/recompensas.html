@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Recompensas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <a href="inicio.html" class="logo">LOGO</a>
+    <nav class="menu">
+      <a href="inicio.html">Inicio</a>
+      <a href="perfil.html">Perfil</a>
+      <a href="puntos.html">Puntos de reciclaje</a>
+      <a href="foro.html">Foro</a>
+      <a href="recompensas.html" class="activo">Recompensas</a>
+      <a href="perfil.html" class="avatar"></a>
+    </nav>
+  </header>
+
+  <main class="contenedor">
+    <section class="panel">
+      <h1 class="subtitulo">Mis puntos: 000</h1>
+      <progress value="60" max="100"></progress>
+    </section>
+
+    <section class="dos-col">
+      <div class="formulario">
+        <h2 class="subtitulo">Registrar reciclaje</h2>
+        <select>
+          <option>Tipo de material</option>
+          <option>Plástico</option>
+          <option>Vidrio</option>
+          <option>Papel y cartón</option>
+        </select>
+        <input type="number" placeholder="Cantidad (kg o unidades)">
+        <label class="subida">
+          Subir foto o comprobante
+          <input type="file">
+        </label>
+        <a href="recompensas.html" class="btn btn-primario">Registrar puntos</a>
+      </div>
+
+      <div class="canje">
+        <h2 class="subtitulo">Canjear recompensas</h2>
+        <div class="grid-2">
+          <div class="recompensa">Recompensa 1</div>
+          <div class="recompensa">Recompensa 2</div>
+          <div class="recompensa">Recompensa 3</div>
+          <div class="recompensa">Recompensa 4</div>
+        </div>
+        <a href="recompensas.html" class="btn btn-secundario">Canjear</a>
+      </div>
+    </section>
+
+    <section class="panel historial">
+      <h2 class="subtitulo">Historial de registros y canjes</h2>
+    </section>
+  </main>
+</body>
+</html>

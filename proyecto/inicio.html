@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inicio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <a href="inicio.html" class="logo">LOGO</a>
+    <nav class="menu">
+      <a href="inicio.html" class="activo">Inicio</a>
+      <a href="perfil.html">Perfil</a>
+      <a href="puntos.html">Puntos de reciclaje</a>
+      <a href="foro.html">Foro</a>
+      <a href="recompensas.html">Recompensas</a>
+      <a href="perfil.html" class="avatar"></a>
+    </nav>
+  </header>
+
+  <main class="contenedor">
+    <h1 class="titulo-pagina">Hola, [nombre]</h1>
+
+    <section class="grid-3">
+      <article class="stat">
+        <strong>000</strong>
+        <span>Puntos acumulados</span>
+      </article>
+      <article class="stat">
+        <strong>00 kg</strong>
+        <span>Kg reciclados</span>
+      </article>
+      <article class="stat">
+        <strong>Nivel 1</strong>
+        <progress value="60" max="100"></progress>
+      </article>
+    </section>
+
+    <section class="grid-2">
+      <article class="panel">
+        <div class="panel-cabecera">
+          <h2>Perfil</h2>
+          <a href="perfil.html" class="btn btn-enlace">Ver perfil</a>
+        </div>
+        <div class="perfil-cabecera">
+          <div class="avatar grande">N</div>
+          <p>Nombre de usuario</p>
+        </div>
+      </article>
+
+      <article class="panel">
+        <div class="panel-cabecera">
+          <h2>Mapa de puntos de reciclaje</h2>
+          <a href="puntos.html" class="btn btn-enlace">Ver mapa</a>
+        </div>
+        <div class="mapa"></div>
+      </article>
+
+      <article class="panel">
+        <div class="panel-cabecera">
+          <h2>Foro: últimas publicaciones</h2>
+          <a href="foro.html" class="btn btn-enlace">Ir al foro</a>
+        </div>
+        <div class="lista-publicaciones">
+          <div class="publicacion">
+            <a href="usuario.html" class="avatar">U</a>
+            <a href="subforo.html" class="texto">Título de la publicación</a>
+            <span class="respuestas">Respuestas</span>
+          </div>
+          <div class="publicacion">
+            <a href="usuario.html" class="avatar">U</a>
+            <a href="subforo.html" class="texto">Título de la publicación</a>
+            <span class="respuestas">Respuestas</span>
+          </div>
+          <div class="publicacion">
+            <a href="usuario.html" class="avatar">U</a>
+            <a href="subforo.html" class="texto">Título de la publicación</a>
+            <span class="respuestas">Respuestas</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="panel">
+        <div class="panel-cabecera">
+          <h2>Recompensas disponibles</h2>
+          <a href="recompensas.html" class="btn btn-enlace">Ver todas</a>
+        </div>
+        <div class="grid-2">
+          <div class="recompensa">Recompensa 1</div>
+          <div class="recompensa">Recompensa 2</div>
+        </div>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
